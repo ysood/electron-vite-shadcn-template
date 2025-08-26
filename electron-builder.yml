@@ -1,5 +1,5 @@
 appId: com.electron.app
-productName: vault
+productName: electron-vite-shadcn
 directories:
   buildResources: build
 files:
@@ -12,7 +12,7 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: vault
+  executableName: electron-vite-shadcn
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}
